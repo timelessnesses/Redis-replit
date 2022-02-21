@@ -19,3 +19,9 @@ Grab the codeload url then edit the main.sh to something like this
 curl <url> -o file.tar.gz
 ```
 Then delete every folder then start new again.
+## How to start the redis server
+just run
+```bash
+./bin/redis-server --port 80
+```
+you may need to do chmod
